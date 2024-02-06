@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(193, 236, 255, 0.877);
+    background-color: #d5e1ef;
 
 }
 .container{
@@ -23,6 +23,7 @@ body{
     width: 280px;
     height: 280px;
     border-radius: 5px;
+    padding-top: 15px;
 }
 .card .content{
     display: flex;
@@ -34,10 +35,12 @@ body{
 }
 .card .content h2{
     color: rgb(49, 48, 48);
+    text-align: center;
 }
 .card .content span{
     font-size: 14px;
     font-weight: lighter;
     color: gray;
     text-align: center;
+    padding-bottom: 15px;
 }
