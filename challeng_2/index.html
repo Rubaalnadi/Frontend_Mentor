@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
-
+  <link rel="stylesheet" href="./styles/style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,20 +15,27 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <img src="./assets/images/illustration-article.svg" alt="image card">
+      </div>
+      <div class="card-content">
+        <span class="card-content_achive">Learning</span>
+        <p class="card-content_sub-title">Published 21 Dec 2023</p>
+        <h1>HTML & CSS foundations</h1>
+        <p class="card-content-description">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+        <div class="card-contetn_fotter">
+          <img src="./assets/images/image-avatar.webp" alt="image card avatar">
+          <h4>  Greg Hooper </h4>
+        </div>
+      </div>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
+
+ 
 </body>
 </html>
