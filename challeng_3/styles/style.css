@@ -1,0 +1,90 @@
+body{
+    background-color: #e0e8ff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 450px;
+        img{
+            border-top-left-radius : 20px;
+            border-top-right-radius : 20px;
+        }
+       .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+            color: #1d294c;
+            margin-bottom: 10px;
+        }
+        .description{
+            color: #9fa1b1;
+            width: 300px;
+            text-align: center;
+        }
+        .aduio{
+            background-color: #f8f9fe;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 20px 0;
+            .plane{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                p{
+                    margin: 0;
+                }
+                .annual{
+                    p{
+                        color: rgb(94 102 122);
+                    }
+                    span{
+                        font-size: small;
+                        color: rgb(123 129 150);
+                    }
+                }
+            }
+            a{
+                color: rgb(72 55 194);
+            }
+        }
+        button{
+            background-color: rgb(56 42 225);
+            color: #fff;
+            border-radius: 20px;
+            width: 100%;
+            border: none;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 21px 9px rgba(216, 215, 247, 0.5); /* Shadow with color rgb(216, 215, 247) */
+            cursor: pointer;
+        }
+        .cancel{
+            color: rgb(116 128 158);
+            cursor: pointer;
+        }
+       } 
+    }
+}
+@media only screen and (max-width: 426px) {
+    .card{
+        width: 100% !important;
+        img{
+            width: 100% !important;
+        }
+    }
+}
